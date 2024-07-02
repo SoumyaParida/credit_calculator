@@ -1,22 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
 }
 
 .container {
+    width: 90%;
     max-width: 600px;
-    margin: 50px auto;
-    background: #fff;
+    margin: 0 auto;
     padding: 20px;
+    background: #f4f4f4;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    margin-bottom: 20px;
 }
 
 form {
@@ -28,37 +26,25 @@ label {
     margin-top: 10px;
 }
 
-input[type="number"], select {
-    padding: 10px;
+input, select, button {
     margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
     border: 1px solid #ccc;
-    border-radius: 4px;
 }
 
 button {
-    padding: 10px;
-    margin-top: 20px;
-    background-color: #28a745;
-    color: #fff;
+    background: #28a745;
+    color: white;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #218838;
-}
-
-#results {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #e9ecef;
-    border-radius: 4px;
-    display: none;
+    background: #218838;
 }
 
 canvas {
-    margin-top: 20px;
-    max-width: 100%;
-    height: auto;
+    display: block;
+    margin: 20px auto;
 }
